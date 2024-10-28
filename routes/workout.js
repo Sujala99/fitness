@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const workoutController = require("../controller/Workout")
+const workoutController = require("../controller/workout")
 const authMiddleware = require("../auth"); // Import your authentication middleware
 
 
